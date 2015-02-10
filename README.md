@@ -24,13 +24,16 @@
 - Code blocks
 - Lists
 - Blockquotes
+- Address
 
 ## Buttons
 
 **Description**
 
-- 2 styles: default, primary
+- 4 styles: default, primary , sucesss , info , warining , danger , link 
+- 2 variation for icon buttons - left,right
 - 3 sizes: small, default and large
+- Hover and active style for the buttons
 - Styles for all HTML elements: `<a>, <button>, <input type="button">, <input type="submit">`
 
 ## Form Elements
@@ -38,6 +41,7 @@
 **Elements**
 
 - Inputs
+- Input validations :  `Gray, Succsess, error`
 - Radio and checkboxes (custom controls)
 - Pre-made forms: sign-in, sign-up, contact
 
@@ -55,6 +59,17 @@
 **Description**
 
 - 4 message boxes: information, success, error, warning
+
+## Additional visual elements
+
+**Elements**
+
+- Tables
+- Badges
+- Labels
+- Media object
+- Panels
+
 
 ## Navigation
 
