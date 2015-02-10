@@ -30,10 +30,10 @@
 
 **Description**
 
-- 4 styles: default, primary , sucesss , info , warining , danger , link 
+- 6 styles: default, primary , sucesss , info , warning , danger , link 
 - 2 variation for icon buttons - left,right
 - 3 sizes: small, default and large
-- Hover and active style for the buttons
+- Hover, Active and disable style for the buttons
 - Styles for all HTML elements: `<a>, <button>, <input type="button">, <input type="submit">`
 
 ## Form Elements
@@ -65,10 +65,12 @@
 **Elements**
 
 - Tables
+- Breadcrumbs
 - Badges
 - Labels
 - Media object
 - Panels
+- Pagination
 
 
 ## Navigation
