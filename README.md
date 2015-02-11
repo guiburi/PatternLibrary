@@ -1,4 +1,3 @@
-
 ## The Grid System
 
 **Description**
@@ -104,3 +103,8 @@
 **Description**
 
 - Will use the Cycle2 jQuery plugin
+
+
+#\#Todo
+
+- Restructure SASS folder (thesassway.com)
