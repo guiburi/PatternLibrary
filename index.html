@@ -11,8 +11,13 @@
     <link rel="stylesheet" href="css/style.css" />
 
     <style>
+        body{
+         background-color: #fafafa;   
+        }
         .demo-col {
-            background-color: #def0fa;
+            text-transform: uppercase;
+            background-color: #00bcd4;
+            color: white;
             text-align: center;
             padding: 1em 0;
             display: block;
@@ -21,6 +26,9 @@
         
         .row {
             margin-bottom: 2em;
+        }
+        .no-margin p{
+            margin:0;
         }
     </style>
 </head>
@@ -180,14 +188,11 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-half">
-                    <p>The <a href="#">a element</a> example</p>
+                <div class="col-half no-margin">
                     <p>The <abbr>abbr element</abbr> and an <abbr title="Abbreviation">abbr</abbr> element with title examples</p>
                     <p>The <acronym title="A Cowboy Ran One New York Marathon">ACRONYM</acronym> element example</p>
-                    <p>The <b>b element</b> example</p>
                     <p>The <cite>cite element</cite> example</p>
                     <p>The <code>code element</code> example</p>
-                    <p>The <em>em element</em> example</p>
                     <p>The <del>del element</del> example</p>
                     <p>The <dfn>dfn element</dfn> and <dfn title="Title text">dfn element with title</dfn> examples</p>
                     <p>The <i>i element</i> example</p>
@@ -246,18 +251,24 @@ td, th {
                     </ol>
                 </div>
                 <div class="col-third">
+                    <h4>Definition list</h4>
                     <dl>
                       <dt>Defenestration</dt>
-                      <dd>the action of throwing someone out of a window.</dd>
-                      </dl>
+                      <dd>
+                      The action of throwing someone out of a window.
+                      </dd>
+                      <dt>Defenestration</dt>
+                      <dd>
+                      The action of throwing someone out of a window.
+                      </dd>
+                    </dl>
                 </div>
             </div>      
-            
             <hr>
-                <blockqoute>
+                <blockquote>
                     First, solve the problem. Then, write the code.
                     <footer><a href="">John Johnson</a></footer>
-                </blockqoute>
+                </blockquote>
         </div>
     </section>
     <br>
