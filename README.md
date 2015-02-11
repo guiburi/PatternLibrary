@@ -65,7 +65,6 @@
 **Elements**
 
 - Responsive embeds :  `audio, canvas, iframe, img, svg, video`
-
 - Tables
 - Breadcrumbs
 - Badges
