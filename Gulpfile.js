@@ -6,11 +6,11 @@ var autoprefixer = require('gulp-autoprefixer');
 
 gulp.task('sass', function () {
     gulp.src('sass/*.scss')
-        .pipe(sass())
-        .pipe(gulp.dest('./css'))
+        .pipe(sass({errLogToConsole: true}))
+        .pipe(gulp.dest('css/'))
         .pipe(autoprefixer('last 10 version'))
 //        .pipe(minifycss())
-        .pipe(gulp.dest('./css'));
+        //.pipe(gulp.dest('./css'));
 }); 
 
 gulp.task('watch', function () {

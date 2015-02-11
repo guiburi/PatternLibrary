@@ -22,7 +22,7 @@
 - Paragraphs
 - Bold, em, strike, link
 - Code blocks
-- Lists
+- Lists :  `ul, ol, dl ,dd, dt`
 - Blockquotes
 - Address
 
@@ -30,8 +30,8 @@
 
 **Description**
 
-- 6 styles: default, primary , sucesss , info , warning , danger , link 
-- 2 variation for icon buttons - left,right
+- 6 styles: `default, primary , sucesss , info , warning , danger , link `
+- 2 variation for icon buttons - icon left, icon right
 - 3 sizes: small, default and large
 - Hover, Active and disable style for the buttons
 - Styles for all HTML elements: `<a>, <button>, <input type="button">, <input type="submit">`
@@ -63,6 +63,8 @@
 ## Additional visual elements
 
 **Elements**
+
+- Responsive embeds :  `audio, canvas, iframe, img, svg, video`
 
 - Tables
 - Breadcrumbs
