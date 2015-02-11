@@ -9,7 +9,7 @@ button,
 textarea{
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
-	text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.04);
 }
 
 body {
@@ -105,4 +105,9 @@ dd {
 	color: $muted-text-color;
 	margin-left: $baseline;
 
+}
+
+address {
+	font-style: normal;	
+	margin-left: $baseline;
 }

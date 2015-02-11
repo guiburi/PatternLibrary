@@ -7,6 +7,7 @@
     <!--	Mobile Specific Meta-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--	Stylesheets-->
+    <link rel="stylesheet" href="bower_components/fontawesome/css/font-awesome.min.css">
     <link href='http://fonts.googleapis.com/css?family=Droid+Serif|Raleway:800' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/style.css" />
 
@@ -15,7 +16,7 @@
          background-color: #fafafa;   
         }
         .demo-col {
-            text-transform: uppercase;
+            font-style:italic;
             background-color: #00bcd4;
             color: white;
             text-align: center;
@@ -146,14 +147,14 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-quater">
+                <div class="col-quarter">
                     <div class="demo-col">
-                        .col-quater
+                        .col-quarter
                     </div>
                 </div>
-                <div class="col-quater">
+                <div class="col-quarter">
                     <div class="demo-col">
-                        .col-quater
+                        .col-quarter
                     </div>
                 </div>
                 
@@ -182,6 +183,7 @@
                     <h6>Heading 6</h6>
                 </div>
                 <div class="col-half">
+                    <h4>Paragraph</h4>
                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <strike>Lorem Ipsum has </strike>been the industry's standard dummy text ever since the 1500s, when an unknown <a href="">printer took a galley of type and scrambled</a> it to make a type specimen book.</p>
                     <p>It has survived not only five centuries, but also the leap into electronic typesetting,<strong>unchanged</strong>. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and <em>more recently with desktop</em> publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                     
@@ -189,6 +191,7 @@
             </div>
             <div class="row">
                 <div class="col-half no-margin">
+                    <h4>Semantic elements</h4>
                     <p>The <abbr>abbr element</abbr> and an <abbr title="Abbreviation">abbr</abbr> element with title examples</p>
                     <p>The <acronym title="A Cowboy Ran One New York Marathon">ACRONYM</acronym> element example</p>
                     <p>The <cite>cite element</cite> example</p>
@@ -213,6 +216,7 @@
                     
                 </div>
                 <div class="col-half">
+                   <h4>Code Blocks</h4>
                     <pre>
 td, th {
     padding: 0;
@@ -230,8 +234,8 @@ td, th {
             </div>
             
             <div class="row">
-                <div class="col-third">
-                    <h4>Unodered list</h4>
+                <div class="col-half">
+                    <h4>Unordered list</h4>
                     <ul>
                         <li>Item 1</li>
                         <li>Item 2</li>
@@ -240,8 +244,8 @@ td, th {
                         <li>Item 5</li>
                     </ul>
                 </div>
-                <div class="col-third">
-                    <h4>Odered list</h4>
+                <div class="col-half">
+                    <h4>Ordered list</h4>
                     <ol>
                         <li>Item 1</li>
                         <li>Item 2</li>
@@ -250,7 +254,20 @@ td, th {
                         <li>Item 5</li>
                     </ol>
                 </div>
-                <div class="col-third">
+            </div>
+            <div class="row">
+                <div class="col-half">
+                    <h4>Address Block</h4>
+                     <address>
+                        Written by <a href="mailto:webmaster@example.com">Guiburi</a>.<br>
+                        Visit us at:<br>
+                        Example.com<br>
+                        Box 564, Disneyland<br>
+                        USA
+                     </address> 
+                    
+                </div>
+                <div class="col-half">
                     <h4>Definition list</h4>
                     <dl>
                       <dt>Defenestration</dt>
@@ -263,13 +280,54 @@ td, th {
                       </dd>
                     </dl>
                 </div>
-            </div>      
-            <hr>
+            </div>     
+               <hr> 
+               <h4>Blockquote</h4>
                 <blockquote>
                     First, solve the problem. Then, write the code.
                     <footer><a href="">John Johnson</a></footer>
                 </blockquote>
         </div>
+    </section>
+    <div class="container">
+        <h1>Buttons</h1>
+        <hr>
+        <div class="row">
+            <div class="col-half">
+                <h4>Button style</h4>
+                <p><button class="btn">Default style</button></p>
+                <p><button class="btn-primary">Default style</button></p>
+                <p><button class="btn-sucesss">Sucesss style</button></p>
+                <p><button class="btn-info">Info style</button></p>
+                <p><button class="btn-warning">Warning style</button></p>
+                <p><button class="btn-danger">Danger style</button></p>
+                <p><button class="btn-link">Link style</button></p>
+            </div>
+            <div class="col-half">
+                <h4>Icon button</h4>
+                <p><button class="btn-icon-left"><i class="fa  fa-chevron-left"></i>Icon left</button></p>
+                <p><button class="btn-icon-right"><i class="fa  fa-chevron-right"></i>Icon right</button></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-half">
+                <h4>HTML elements</h4>
+                <p><button class="btn">Button</button></p>
+                <p><a href="" class="btn">Anchor Tag</a></p>
+                <p><input type="submit" class="btn" value="Submit input"></p>
+                <p><input type="button" class="btn" value="Button input"></p>
+            </div>
+            <div class="col-half">
+                <h4>Button sizes</h4>
+                <p><button class="btn-small">Small button</button></p>
+                <p><button class="btn">Default button</button></p>
+                <p><button class="btn-large">Large button</button></p>
+            </div>
+        </div>
+            
+    </div>
+    <section>
+        
     </section>
     <br>
     <br>
