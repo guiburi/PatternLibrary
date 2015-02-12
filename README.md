@@ -111,3 +111,4 @@
 #\#Todo
 
 - Restructure SASS folder (thesassway.com)
+- Better comments in sass file
