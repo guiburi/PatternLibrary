@@ -21,12 +21,20 @@
         clear: both;
     }
 }
-/* Column Widhts */
+/* Column Widths */
 
 @for $i from 1 through $column-count {
     .col-#{$i}
     {
         width: ( 100 /$column-count) *$i *1%;
+    }
+}
+
+/* Column Offsets */
+@for $i from 1 through $column-count{
+    .offset-#{$i}
+    {
+        margin-left: ( 100 /$column-count) *$i *1%;
     }
 }
 /* Special Classes */

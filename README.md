@@ -7,6 +7,8 @@
 - Columns will be wrapped in a container .row ✓
 - Each column will have the class of .col-$ ✓
 - Also create a .container class that wraps all content and centers it on the page. The container must be fluid in width. ✓
+- Nested colums to have half the gutter :  `first and last no gutter`
+
 
 **Responsive Behaviour**
 
