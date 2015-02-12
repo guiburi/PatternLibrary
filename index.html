@@ -17,8 +17,8 @@
         }
         .demo-col {
             font-style:italic;
-            background-color: #00bcd4;
-            color: white;
+            background-color: #EFEBE9;
+            color: #212121;
             text-align: center;
             padding: 1em 0;
             display: block;
@@ -164,6 +164,7 @@
                     </div>
                 </div>
             </div>
+            <h4>Grid offsets</h4>
             <div class="row">
                      <div class="col-2">
                          <div class="demo-col">
@@ -181,7 +182,40 @@
                          </div>
                      </div>
             </div>
-
+             <div class="row">
+                     <div class="col-2">
+                         <div class="demo-col">
+                             .col-1
+                         </div>
+                     </div>
+                     <div class="col-2 offset-4">
+                         <div class="demo-col">
+                             .col-2
+                         </div>
+                     </div>
+                    <div class="col-2 offset-2">
+                         <div class="demo-col">
+                             .col-2
+                         </div>
+                     </div>
+            </div>
+            <div class="row">
+                     <div class="col-6 offset-2">
+                         <div class="demo-col">
+                             .col-1
+                         </div>
+                     </div>
+                     <div class="col-2">
+                         <div class="demo-col">
+                             .col-2
+                         </div>
+                     </div>
+                    <div class="col-1 offset-1">
+                         <div class="demo-col">
+                             .col-2
+                         </div>
+                     </div>
+            </div>
         </div>
     </section>
     <section>
@@ -311,8 +345,7 @@ td, th {
             <div class="col-half">
                 <h4>Button style</h4>
                 <p><button class="btn">Default style</button></p>
-                <p><button class="btn-primary">Primary style</button></p>
-                <p><button class="btn-sucesss">Sucesss style</button></p>
+                <p><button class="btn-success">Success style</button></p>
                 <p><button class="btn-info">Info style</button></p>
                 <p><button class="btn-warning">Warning style</button></p>
                 <p><button class="btn-danger">Danger style</button></p>
@@ -321,7 +354,12 @@ td, th {
             <div class="col-half">
                 <h4>Icon button</h4>
                 <p><button class="btn-icon-left"><i class="fa  fa-chevron-left"></i>Icon left</button></p>
-                <p><button class="btn-icon-right"><i class="fa  fa-chevron-right"></i>Icon right</button></p>
+                <p><button class="btn-danger btn-icon-right"><i class="fa  fa-chevron-right"></i>Icon right</button></p>
+
+                <h4>Button States</h4>
+                <p><button class="btn-active">Active style</button></p>
+                <p><button class="btn-disabled" disabled>Disabled style</button></p>
+
             </div>
         </div>
         <div class="row">
