@@ -83,9 +83,15 @@ $feedback-error-bg: #E57373;
 
 //Navigation Variables
 
-$navbar-bg-color: #FFCDD2;
+$navbar-bg-color: #ccc;
 $navbar-submenu-bg-color: darken($navbar-bg-color , 10%);
 $navbar-link-color: lighten($navbar-bg-color , 25%);
 $navbar-active-color: darken($navbar-bg-color , 20%);
 $navbar-hover-color: darken($navbar-bg-color , 15%);
 $navbar-hover-text-color: darken($navbar-bg-color , 15%);
+
+
+//Tabs Variable
+$tabs-border-color : #ccc;
+$tabs-inactive-bg-color : #c1cacd;
+$tabs-active-bg-color : #fff;
