@@ -59,7 +59,7 @@
 
 **Description**
 
-- 4 message boxes: information, success, error, warning
+- 4 message boxes: information, success, error, warning ✓
 
 ## Additional visual elements
 
