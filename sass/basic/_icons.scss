@@ -1,0 +1,36 @@
+[class^="icon-"]{
+	border: 1px solid $icon-border-color;
+	
+	height: $baseline *2 ;
+	padding: $baseline / 6;
+	margin-bottom: $baseline;
+	width: $baseline *2;
+	
+	text-align: center;
+	
+	i{
+		line-height: $baseline *1.6 ;
+	}
+	
+}
+
+.icon-circle {
+	border-radius:100% ;
+}
+
+.icon-filled{
+	background-color: $icon-filled-background-color;	
+	color: $icon-filled-text-color;	
+}
+
+.icon-rounded{
+	border-radius:$icon-roundness;
+}
+
+.icon-small {
+	font-size: $icon-small-font-size;
+}
+
+.icon-large {
+	font-size: $icon-large-font-size;
+}

@@ -40,20 +40,20 @@
 ## Form Elements
 
 **Elements**
-
-- Inputs
-- Input validations :  `Gray, Succsess, error`
-- Radio and checkboxes (custom controls)
-- Pre-made forms: sign-in, sign-up, contact
+ 
+- Inputs ✓
+- Input validations :  `Gray, Succsess, error` ✓
+- Radio and checkboxes (custom controls) ✓
+- Pre-made forms: sign-in, sign-up, contact ✓
 
 ## Icons
 
 **Description**
 
-- Will use FontAwesome
-- Styles for bordered icons
-- Styles for square, rounded or circle border
-- 3 different sizes: default, large, huge
+- Will use FontAwesome ✓
+- Styles for bordered icons ✓
+- Styles for `circle, filled, rounded, square` ✓
+- 3 different sizes: `small, default, large` ✓
 
 ## Feedback
 
@@ -112,3 +112,4 @@
 
 - Restructure SASS folder (thesassway.com)
 - Better comments in sass file
+- Better radio button

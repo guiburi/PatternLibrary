@@ -64,6 +64,9 @@ img {
     [class^="col-"] {
         padding: 0 $gutter /2;
     }
+    [class^="offset-"] {
+        margin-left:0;
+    }
     .row {
         margin-left: -$gutter /2;
         margin-right: -$gutter /2;
@@ -74,4 +77,6 @@ img {
     [class^="col-"] {
         width: 100%;
     }
+
+   
 }

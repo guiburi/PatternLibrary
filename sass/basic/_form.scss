@@ -42,5 +42,64 @@ form {
     .required{
         color: $field-required-color;        
     }
+    
+    fieldset{
+			border-color: $field-border-color;
+			
+			padding: $baseline;
+			margin-bottom: $baseline;
+			
+			legend{
+				 @extend h4;
+				 
+				 padding: 0 $baseline/3; 
+			}
+    }
+
+    input[type='checkbox'],
+    input[type='radio']{
+    	display: none;
+    }
+
+    input[type='checkbox'] + label:before {
+    	background-color: white;
+    	border: 1px solid $field-border-color;
+    	
+    	content:"";
+    	display:inline-block;
+    	height: $baseline;
+    	margin: -2px $baseline 0 0;
+    	vertical-align: middle;
+    	width: $baseline;
+    	
+    	font-size: $baseline /2;
+    	line-height: $baseline;
+    	text-align: center;
+    	
+    }
+
+    input[type='checkbox']:checked + label:before {
+    	content: "\2713";
+    }
+    input[type='radio'] + label:before {
+    	background-color: white;
+    	border: 1px solid $field-border-color;
+    	
+    	content:"";
+    	display:inline-block;
+    	height: $baseline;
+    	margin: -2px $baseline 0 0;
+    	vertical-align: middle;
+    	width: $baseline;
+    	border-radius: $baseline;
+    	
+    	font-size: $baseline /2;
+    	line-height: $baseline;
+    	text-align: center;
+    	
+    }
+    input[type='radio']:checked + label:before {
+    	content: "\2022";
+    }
 
 }
