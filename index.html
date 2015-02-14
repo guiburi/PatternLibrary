@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--	Stylesheets-->
     <link rel="stylesheet" href="bower_components/fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/bower_components/animate.css/animate.min.css">
     <link href='http://fonts.googleapis.com/css?family=Droid+Serif|Raleway:800' rel='stylesheet' type='text/css'>
 
 
@@ -26,6 +27,7 @@
             padding: 1em 0;
             display: block;
             border-radius: 3px;
+            
         }
         
         .row {
@@ -39,8 +41,7 @@
 </head>
 
 <body>
-    <!--        Gride System-->
-    <section>
+     <section>
         <div class="container">
             <h1>The Grid</h1>
             <hr>
@@ -272,17 +273,17 @@
                 <div class="col-half">
                     <h4>Code Blocks</h4>
                     <pre>
-td, th {
-    padding: 0;
-}
+                        td, th {
+                            padding: 0;
+                        }
 
-*, *:after, *:before {
-    margin: 0;
-    padding: 0;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box; 
-}
+                        *, *:after, *:before {
+                            margin: 0;
+                            padding: 0;
+                            -webkit-box-sizing: border-box;
+                            -moz-box-sizing: border-box;
+                            box-sizing: border-box; 
+                        }
                     </pre>
                 </div>
             </div>
@@ -636,34 +637,117 @@ td, th {
         </div>
     </section>
     <section>
-    <div class="container">
-        <h1>Client Feedbacks</h1>
-        <hr>
-        <div class="row">
-            <div class="col-half">
-                <div class="alert-information">
-                    <p><strong>Information</strong></p>
-                    <p>This is an information feedback</p>
-                </div>
+        <div class="container">
+            <h1>Client Feedbacks</h1>
+            <hr>
+            <div class="row">
+                <div class="col-half">
+                    <div class="alert-information">
+                        <p><strong>Information</strong></p>
+                        <p>This is an information feedback</p>
+                    </div>
 
-                <div class="alert-success">
-                    <p><strong>Success</strong></p>
-                    <p>This is an success feedback</p>
+                    <div class="alert-success">
+                        <p><strong>Success</strong></p>
+                        <p>This is an success feedback</p>
+                    </div>
                 </div>
-            </div>
-            <div class="col-half">
-                <div class="alert-warning">
-                    <p><strong>Information</strong></p>
-                    <p>This is an information feedback</p>
-                </div>
+                <div class="col-half">
+                    <div class="alert-warning">
+                        <p><strong>Information</strong></p>
+                        <p>This is an information feedback</p>
+                    </div>
 
-                <div class="alert-error">
-                    <p><strong>Error</strong></p>
-                    <p>This is an error feedback</p>
+                    <div class="alert-error">
+                        <p><strong>Error</strong></p>
+                        <p>This is an error feedback</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+    <section>
+        <div class="container">
+            <h1>Responsive Embeds</h1>
+            <hr>
+            <div class="row">
+                <div class="col-4">
+                    <div class="aspect-ratio">
+                        <iframe class="aspect-ratio--object" src="https://www.youtube.com/embed/IPKAwJKGSDc" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="aspect-ratio">
+                       <video controls> 
+                      <source src="http://techslides.com/demos/sample-videos/small.webm" type="video/webm"> 
+                      <source src="http://techslides.com/demos/sample-videos/small.ogv" type="video/ogg"> 
+                      <source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp"4>
+                      <source src="http://techslides.com/demos/sample-videos/small.3gp" type="video/3gp">
+                        </video>
+                    </div>
+                </div>
+               
+                    
+                </iframe>
+                </div>
+            </div>
+        </div>
+    </section> 
+    <section>
+        <div class="container">
+            <h1>Navigation</h1>
+            <hr>
+            
+            <div class="row navbar-container">
+                 <div class="col-4">
+                     <a href="#" class="logo"><img src="http://dummyimage.com/200x90/FFCDD2/000.png" /></a>
+                 </div>
+                 <div class="col-8">
+                 <button class="btn btn-icon-left" id="rwd-trigger"><i class=" fa fa-toggle-on"></i> Toggle Menu</button>
+                    <nav>
+                         <ul class="sf-menu">
+                             <li><a href="">Menu 1</a></li>
+                             <li><a href="">Menu 2</a>
+                                <ul>
+                                    <li><a href="">Submenu 1</a></li>
+                                    <li><a href="">Submenu 2</a></li>
+                                    <li><a href="">Submenu 3</a></li>
+                                    <li><a href="">Submenu 4</a></li>
+                                </ul>
+                            </li>
+                             <li><a href="">Menu 3</a></li>
+                             <li><a href="">Menu 4</a></li>
+                         </ul>
+                    </nav>
+                 </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <h1>Animations</h1>
+            <hr>
+            <div class="row" id="demo-animations">
+                <div class="col-2">
+                    <div class="demo-col">bounce</div>
+                </div>
+                <div class="col-2">
+                    <div class="demo-col">flash</div>
+                </div>
+                <div class="col-2">
+                    <div class="demo-col">pulse</div>
+                </div>
+                <div class="col-2">
+                    <div class="demo-col">rubberBand</div>
+                </div>
+                <div class="col-2">
+                    <div class="demo-col">shake</div>
+                </div>
+                <div class="col-2">
+                    <div class="demo-col">swing</div>
+                </div>
+            </div>
+        </div>
     </section>
     <br>
     <br>
@@ -677,6 +761,11 @@ td, th {
     <br>
     <br>
     <br>
+        <!-- Add Bower Components -->
+    <script src="bower_components/jquery/jquery.min.js"></script>
+    <script src="bower_components/superfish/dist/js/superfish.min.js"></script>
+    <script src="bower_components/superfish/dist/js/hoverIntent.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

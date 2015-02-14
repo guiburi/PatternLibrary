@@ -81,3 +81,11 @@ $feedback-success-bg: #81C784;
 $feedback-warning-bg: #FFB74D;
 $feedback-error-bg: #E57373;
 
+//Navigation Variables
+
+$navbar-bg-color: #FFCDD2;
+$navbar-submenu-bg-color: darken($navbar-bg-color , 10%);
+$navbar-link-color: lighten($navbar-bg-color , 25%);
+$navbar-active-color: darken($navbar-bg-color , 20%);
+$navbar-hover-color: darken($navbar-bg-color , 15%);
+$navbar-hover-text-color: darken($navbar-bg-color , 15%);

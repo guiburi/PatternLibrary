@@ -1,0 +1,159 @@
+.navbar-container {
+    #rwd-trigger {
+    		background-color: $navbar-bg-color;
+        display: none;
+    }
+    .sf-menu {
+        float: right;
+    }
+    .rwd-menu {
+        display: none;
+        background-color: $navbar-bg-color;
+        a {
+            display: block;
+            padding: $baseline/2 $baseline;
+            font-family: $heading-font-family;
+            text-decoration: none;
+            color: $navbar-link-color;
+            &:active {
+                background-color: $navbar-active-color;
+            }
+            &:hover {
+                background-color: $navbar-hover-color
+            }
+        }
+        ul {
+            list-style-type: none;
+            margin-bottom: 0;
+            margin-left: 0;
+        }
+    }
+    @media (max-width: 768px) {
+        .logo img, #rwd-trigger {
+            display: block;
+            margin: 0 auto $baseline auto;
+        }
+        .sf-menu,
+        {
+            display: none;
+        }
+    }
+}
+/* Superfish Essential Styles. */
+
+.sf-menu,
+.sf-menu * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sf-menu {
+    li {
+        position: relative;
+    }
+    > li {
+        float: left;
+    }
+    ul {
+        position: absolute;
+        display: none;
+        top: 100%;
+        left: 0;
+        z-index: 99;
+    }
+    li:hover > ul,
+    li.sfHover > ul {
+        display: block;
+    }
+    a {
+        display: block;
+        position: relative;
+    }
+    ul ul {
+        top: 0;
+        left: 100%;
+    }
+}
+/* Superfish Menu Skin. */
+
+.sf-menu {
+    ul {
+        min-width: 12em;
+        /* allow long menu items to determine submenu width */
+    }
+    a {
+        padding: $baseline/2 $baseline *1.5;
+        color: $navbar-link-color;
+        font-family: $heading-font-family;
+        text-decoration: none;
+        &:hover {
+            color: $navbar-link-color;
+        }
+    }
+    li {
+        white-space: nowrap;
+        /* no need for Supersubs plugin */
+        
+        background-color: $navbar-bg-color;
+        -webkit-transition: background .2s;
+        transition: background .2s;
+    }
+    ul li {
+        background-color: $navbar-submenu-bg-color;
+    }
+    ul ul li {
+        background-color: $navbar-submenu-bg-color;
+    }
+    li:hover,
+    li.sfHover {
+        background: $navbar-hover-color;
+        /* only transition out, not in */
+        
+        -webkit-transition: none;
+        transition: none;
+    }
+    li:active {
+        background: $navbar-active-color;
+    }
+}
+/*** arrows (for all except IE7) **/
+
+.sf-arrows .sf-with-ul {
+    padding-right: 2.5em;
+}
+/* styling for both css and generated arrows */
+
+.sf-arrows .sf-with-ul:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 1em;
+    margin-top: -3px;
+    height: 0;
+    width: 0;
+    /* order of following 3 rules important for fallbacks to work */
+    
+    border: 5px solid transparent;
+    border-top-color: $navbar-link-color;
+}
+
+.sf-arrows > li > .sf-with-ul:focus:after,
+.sf-arrows > li:hover > .sf-with-ul:after,
+.sf-arrows > .sfHover > .sf-with-ul:after {
+    border-top-color: $navbar-link-color;
+}
+/* styling for right-facing arrows */
+
+.sf-arrows ul .sf-with-ul:after {
+    margin-top: -5px;
+    margin-right: -3px;
+    border-color: transparent;
+    border-left-color: $navbar-link-color;
+}
+
+.sf-arrows ul li > .sf-with-ul:focus:after,
+.sf-arrows ul li:hover > .sf-with-ul:after,
+.sf-arrows ul .sfHover > .sf-with-ul:after {
+    border-left-color: $navbar-link-color;
+}

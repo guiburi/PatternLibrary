@@ -65,15 +65,8 @@
 
 **Elements**
 
-- Responsive embeds :  `audio, canvas, iframe, img, svg, video`
-- Tables
-- Breadcrumbs
-- Badges
-- Labels
-- Media object
-- Panels
-- Pagination
-- tooltips
+- Responsive embeds :  `audio, canvas, iframe, img, svg, video` ✓
+
 
 
 ## Navigation
@@ -113,3 +106,11 @@
 - Restructure SASS folder (thesassway.com)
 - Better comments in sass file
 - Better radio button
+- Tables
+- Breadcrumbs
+- Badges
+- Labels
+- Media object
+- Panels
+- Pagination
+- tooltips
