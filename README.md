@@ -31,11 +31,11 @@
 
 **Description**
 
-- 6 styles: `default, primary , sucesss , info , warning , danger , link `
-- 2 variation for icon buttons - icon left, icon right
-- 3 sizes: small, default and large
-- Hover, Active and disable style for the buttons
-- Styles for all HTML elements: `<a>, <button>, <input type="button">, <input type="submit">`
+- 6 styles: `default, primary , sucesss , info , warning , danger , link `✓
+- 2 variation for icon buttons - icon left, icon right ✓
+- 3 sizes: small, default and large ✓
+- Hover, Active and disable style for the buttons ✓
+- Styles for all HTML elements: `<a>, <button>, <input type="button">, <input type="submit">` ✓
 
 ## Form Elements
 

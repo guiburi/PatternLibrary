@@ -26,7 +26,7 @@
         }
         
         .row {
-            margin-bottom: 2em;
+            margin-bottom: 1em;
         }
         .no-margin p{
             margin:0;
@@ -385,53 +385,153 @@ td, th {
     <div class="container">
         <h1>Forms</h1>
         <hr>
-        <form action="">
-            <div class="row">
-                <div class="col-half">
+        <div class="row">
+            <form action="">
+                    <div class="col-half">
+                        <fieldset>
+                            <legend>Inputs</legend>
+
+                            <div class="field-group">
+                                <label for="text-input">This is a label</label>
+                                <input type="text" name="text-input" id="text-input" placeholder="This is a text input">
+                                <p class="help">A single-line text field</p>
+                            </div>
+
+                            <div class="field-group field-error">
+                                <label for="text-input-error">Error Label</label>
+                                <input type="text" name="text-input-error" id="text-input-error" placeholder="This is a text input with an error">
+                                <p class="help">That aint your momma's name!</p>
+                            </div>
+
+                            <div class="field-group">
+                                <label for="input-textarea">Still a label</label>
+                                <textarea name="input-textarea" id="input-textarea" placeholder="This is a textarea">
+                                </textarea>
+                            </div>
+                        </fieldset>
+                    </div>
+
+                    <div class="col-half">
+                        <fieldset>
+                            <legend>
+                                Radio buttons and checkboxes
+                            </legend>
+                            <div class="field-group">
+                                <input type="radio" name="input-radio" id="input-radio">
+                                <label for="input-radio"> Radio 1</label>
+                                <input type="radio" name="input-radio" id="input-radio-2">
+                                <label for="input-radio-2"> Radio 2</label>
+                                <input type="radio" name="input-radio" id="input-radio-3">
+                                <label for="input-radio-3"> Radio 3</label>
+                            </div>
+                            <div class="field-group">
+                                <input type="checkbox" name="input-checkbox" id="input-checkbox">
+                                <label for="input-checkbox">This is a checkbox</label>
+                            </div>
+                        </fieldset>
+                    </div>
+            </form>
+        </div>
+        
+
+        <div class="row">
+            <div class="col-4">
+                <form action="">
                     <fieldset>
-                        <legend>Inputs</legend>
+                        <legend>Sign-in Form</legend>
 
                         <div class="field-group">
-                            <label for="text-input">This is a label</label>
-                            <input type="text" name="text-input" id="text-input" placeholder="This is a text input">
-                            <p class="help">A single-line text field</p>
+                            <label for="sign-in-username">Username: <span class="required">*</span></label>
+                            <input type="text" id="sign-in-username" name="sign-in-username">
                         </div>
 
                         <div class="field-group">
-                            <label for="text-input-error">Error Label</label>
-                            <input type="text" name="text-input-error" id="text-input-error" placeholder="This is a text input with an erro">
-                            <p class="help">That aint your momma's name!</p>
+                            <label for="sign-in-pwd">Password: <span class="required">*</span></label>
+                            <input type="password" id="sign-in-pwd" name="sign-in-pwd">
+                        </div> 
+
+                        <div class="field-group">
+                            <input type="checkbox" id="sign-in-checkbox" name="sign-in-checkbox" />
+                            <label for="sign-in-checkbox">Remember me</label>
                         </div>
 
                         <div class="field-group">
-                            <label for="input-textarea">Still a label</label>
-                            <textarea name="input-textarea" id="input-textarea" placeholder="This is a textarea">
-                            </textarea>
-                        </div>
+                            <input type="submit" class="btn" value="Sign In">
+                        </div> 
+
+                        <p><em><span class="required">*</span> required fields</em></p>
                     </fieldset>
-                </div>
-
-                <div class="col-half">
-                    <fieldset>
-                        <legend>
-                            Radio buttons and checkboxes
-                        </legend>
-                        <div class="field-group">
-                            <input type="radio" name="input-radio" id="input-radio">
-                            <label for="input-radio"> Radio 1</label>
-                            <input type="radio" name="input-radio-2" id="input-radio-2">
-                            <label for="input-radio-2"> Radio 2</label>
-                            <input type="radio" name="input-radio-3" id="input-radio-2">
-                            <label for="input-radio-3"> Radio 3</label>
-                        </div>
-                        <div class="field-group">
-                            <input type="checkbox" name="input-checkbox" id="input-checkbox">
-                            <label for="input-checkbox">This is a checkbox</label>
-                        </div>
-                    </fieldset>
-                </div>
+                </form>
             </div>
-        </form>
+
+            <div class="col-4">
+                <form action="">
+                    <fieldset>
+                        <legend>Sign-up Form</legend>
+
+                        <div class="field-group">
+                            <label for="sign-up-email">Email address: <span class="required">*</span></label>
+                            <input type="email" id="sign-up-email" name="sign-up-email">
+                        </div>
+
+                        <div class="field-group">
+                            <label for="sign-up-name">Username: <span class="required">*</span></label>
+                            <input type="text" id="sign-up-username" name="sign-up-username">
+                        </div>
+
+                        <div class="field-group">
+                            <label for="sign-up-pwd">Password: <span class="required">*</span></label>
+                            <input type="password" id="sign-up-pwd" name="sign-up-pwd">
+                        </div>
+
+                        <div class="field-group">
+                            <label for="sign-up-confirm-pwd">Confirm Password: <span class="required">*</span></label>
+                            <input type="password" id="sign-up-confirm-pwd" name="sign-up-confirm-pwd">
+                        </div>
+
+                        <div class="field-group">
+                            <input type="submit" class="btn" value="Sign Up">
+                        </div>
+
+                        <p><em><span class="required">*</span> required fields</em></p>
+                    </fieldset>
+                </form>                 
+            </div>
+
+            <div class="col-4">
+                <form action="">
+                    <fieldset>
+                        <legend>Contact Form</legend>
+
+                        <div class="field-group">
+                            <label for="contact-name">Name: <span class="required">*</span></label>
+                            <input type="text" id="contact-name" name="contact-name">
+                        </div>
+
+                        <div class="field-group">
+                            <label for="contact-email">Email address: <span class="required">*</span></label>
+                            <input type="email" id="contact-email" name="contact-email">
+                        </div>
+
+                        <div class="field-group">
+                            <label for="contact-website">Website:</label>
+                            <input type="url" id="contact-website" name="contact-website">
+                        </div>
+
+                        <div class="field-group">
+                            <label for="contact-textarea">Message: <span class="required">*</span></label>
+                            <textarea name="contact-textarea" id="contact-textarea" rows="10" class="field-fw"></textarea>
+                        </div>
+
+                        <div class="field-group">
+                            <input type="submit" class="btn" value="Send Message">
+                        </div>
+
+                        <p><em><span class="required">*</span> required fields</em></p>
+                    </fieldset>
+                </form>
+            </div>
+        </div>    
     </div>
     </section>
     <br>

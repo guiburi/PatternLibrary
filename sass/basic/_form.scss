@@ -1,0 +1,46 @@
+form {
+    .field-group {
+        margin-bottom: 1em;
+        label {
+            font-family: $heading-font-family;
+            display: block;
+            margin-bottom: $baseline / 5;
+            font-weight: bold;
+        }
+        input:not([class^='btn']),
+        textarea {
+            border: 1px solid $field-border-color;
+            padding: $baseline / 2;
+            &.field-fw {
+                width: 100%
+            }
+            &:focus{
+                outline: none;
+            }
+            &:hover {
+                border: 1px solid darken($field-border-color, 15%);
+            }
+        }
+        .help {
+            @extend small;
+            margin: $baseline /3 0 0;
+            color: $muted-text-color;
+            font-style: italic;
+        }
+        &.field-error {
+            label, .help {
+                color: $field-error-color;
+            }
+            input {
+                border:1px solid lighten($field-error-color, 30%);
+            }
+            
+        }
+        
+    }
+    
+    .required{
+        color: $field-required-color;        
+    }
+
+}
