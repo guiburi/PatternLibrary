@@ -1,41 +1,40 @@
-html{
-	font-size: 1em;
+html {
+    font-size: 1em;
 }
 
 html,
 html a,
 input,
 button,
-textarea{
-	text-rendering: optimizeLegibility;
-	-webkit-font-smoothing: antialiased;
-	text-shadow: 1px 1px 1px rgba(0,0,0,0.04);
+textarea {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.04);
 }
 
 body {
-	color : $text-color;
-	font-family:$body-font-family;
-	line-height:1.5em;
+    color: $text-color;
+    font-family: $body-font-family;
+    line-height: 1.5em;
 }
 
 p {
-	margin-bottom: $baseline;
+    margin-bottom: $baseline;
 }
 
 a,
 a:visited {
-	color: $link-color;
-	
-	&:hover {
-		color : $text-color;
-	}
+    color: $link-color;
+    &:hover {
+        color: $text-color;
+    }
 }
 
-hr{
-	border: 0;
-	background-color: $hr-color;
-	height:1px;
-	margin: $baseline 0;
+hr {
+    border: 0;
+    background-color: $hr-color;
+    height: 1px;
+    margin: $baseline 0;
 }
 
 h1,
@@ -44,70 +43,70 @@ h3,
 h4,
 h5,
 h6 {
-	margin: $baseline 0 0.5em;
-	line-height:1.2;
-	
-	color:$heading-font-color;
-	font-family:$heading-font-family;
-	text-transform: uppercase;
-	letter-spacing: 1px;
+    margin: $baseline 0 0.5em;
+    line-height: 1.2;
+    color: $heading-font-color;
+    font-family: $heading-font-family;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 h5,
-h6{
-	color: $sub-heading-font-color;
-	line-height:1.5;
+h6 {
+    color: $sub-heading-font-color;
+    line-height: 1.5;
 }
 
-h1{
-	font-size: $h1-size;
-}
-h2{
-	font-size: $h2-size;
-}
-h3{
-	font-size: $h3-size;
-}
-h4{
-	font-size: $h4-size;
-}
-h5{
-	font-size: $h5-size;
-}
-h6{
-	font-size: $h6-size;
+h1 {
+    font-size: $h1-size;
 }
 
+h2 {
+    font-size: $h2-size;
+}
+
+h3 {
+    font-size: $h3-size;
+}
+
+h4 {
+    font-size: $h4-size;
+}
+
+h5 {
+    font-size: $h5-size;
+}
+
+h6 {
+    font-size: $h6-size;
+}
 
 ul,
-ol{
-	margin: 0 0 $baseline $baseline;
+ol {
+    margin: 0 0 $baseline $baseline;
 }
 
 blockquote {
-	color: $muted-text-color;
-	font-style: italic;
-	
-	margin-left: $baseline;
-	
-	footer{
-		@extend small;
-		font-style: normal;
-		margin-left: $baseline;
-	}
+    color: $muted-text-color;
+    font-style: italic;
+    margin-left: $baseline;
+    footer {
+        @extend small;
+        font-style: normal;
+        margin-left: $baseline;
+    }
 }
 
 dt {
-		@extend h5;
-		}
+    @extend h5;
+}
 
 dd {
-	color: $muted-text-color;
-	margin-left: $baseline;
-
+    color: $muted-text-color;
+    margin-left: $baseline;
 }
 
 address {
-	font-style: normal;	
-	margin-left: $baseline;
+    font-style: normal;
+    margin-left: $baseline;
 }

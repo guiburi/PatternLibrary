@@ -13,7 +13,7 @@
             margin-left: $baseline;
         }
         a {
-        		font-family: $heading-font-family;
+            font-family: $heading-font-family;
             background-color: lighten($tabs-inactive-bg-color, 15%);
             display: inline-block;
             padding: $baseline*.75 $baseline;
@@ -34,21 +34,19 @@
         }
     }
 }
-.tabs-content{
-	border: 1px solid $tabs-border-color;
-	
-	background-color: #FFF;
-	padding: $baseline;
-	
-	p:last-child{
-		margin-bottom: 0;
-	}
+
+.tabs-content {
+    border: 1px solid $tabs-border-color;
+    background-color: #FFF;
+    padding: $baseline;
+    p:last-child {
+        margin-bottom: 0;
+    }
 }
 
-.tab{
-	display: none;
-	
-	&:active{
-		display: block;
-	}
+.tab {
+    display: none;
+    &:active {
+        display: block;
+    }
 }

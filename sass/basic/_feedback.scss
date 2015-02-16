@@ -1,48 +1,41 @@
-
-[class^="alert-"]{
-	border: 1px solid;
-	border-bottom-width: 3px;	
-	
-	margin: $baseline 0;
-	padding: $baseline;
-	
-	p {
-		margin-bottom:0;
-	}
+[class^="alert-"] {
+    border: 1px solid;
+    border-bottom-width: 3px;
+    margin: $baseline 0;
+    padding: $baseline;
+    p {
+        margin-bottom: 0;
+    }
 }
 
-.alert-information{
-	border-color: lighten($feedback-info-bg, 10%);
-	background-color: lighten($feedback-info-bg, 30%);
-	
-	& :first-child {
-		color: $feedback-info-bg;
-	}
+.alert-information {
+    border-color: lighten($feedback-info-bg, 10%);
+    background-color: lighten($feedback-info-bg, 30%);
+    &:first-child {
+        color: $feedback-info-bg;
+    }
 }
 
-.alert-success{
-	border-color: lighten($feedback-success-bg, 10%);
-	background-color: lighten($feedback-success-bg, 30%);
-	
-	& :first-child {
-		color: $feedback-success-bg;
-	}
+.alert-success {
+    border-color: lighten($feedback-success-bg, 10%);
+    background-color: lighten($feedback-success-bg, 30%);
+    &:first-child {
+        color: $feedback-success-bg;
+    }
 }
 
-.alert-warning{
-	border-color: lighten($feedback-warning-bg, 10%);
-	background-color: lighten($feedback-warning-bg, 30%);
-	
-	& :first-child {
-		color: $feedback-warning-bg;
-	}
+.alert-warning {
+    border-color: lighten($feedback-warning-bg, 10%);
+    background-color: lighten($feedback-warning-bg, 30%);
+    &:first-child {
+        color: $feedback-warning-bg;
+    }
 }
 
-.alert-error{
-	border-color: lighten($feedback-error-bg, 10%);
-	background-color: lighten($feedback-error-bg, 30%);
-	
-	& :first-child {
-		color: $feedback-error-bg;
-	}
+.alert-error {
+    border-color: lighten($feedback-error-bg, 10%);
+    background-color: lighten($feedback-error-bg, 30%);
+    &:first-child {
+        color: $feedback-error-bg;
+    }
 }

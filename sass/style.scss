@@ -1,19 +1,18 @@
 /* Variables */
+
 @import "core/variables";
-
 /* Normalize */
-@import "core/normalize";
 
+@import "core/normalize";
+@import "core/reset";
 @import "basic/grid";
 @import "basic/typography";
 @import "basic/buttons";
 @import "basic/form";
 @import "basic/icons";
 @import "basic/feedback";
-
-
-
 @import "advanced/responsive-embed";
 @import "advanced/navigation";
 @import "advanced/tabs";
-
+@import "advanced/accordions";
+@import "advanced/carousels";

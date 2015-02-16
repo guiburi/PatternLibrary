@@ -83,7 +83,7 @@ $feedback-error-bg: #E57373;
 
 //Navigation Variables
 
-$navbar-bg-color: #ccc;
+$navbar-bg-color: #B0BEC5;
 $navbar-submenu-bg-color: darken($navbar-bg-color , 10%);
 $navbar-link-color: lighten($navbar-bg-color , 25%);
 $navbar-active-color: darken($navbar-bg-color , 20%);
@@ -95,3 +95,12 @@ $navbar-hover-text-color: darken($navbar-bg-color , 15%);
 $tabs-border-color : #ccc;
 $tabs-inactive-bg-color : #c1cacd;
 $tabs-active-bg-color : #fff;
+
+
+
+//Accordion Variable 
+$accordion-border-color : #ccc;
+$accordion-inactive-bg-color : #c1cacd;
+$accordion-active-bg-color : #333;
+$accordion-active-text-color : #fff;
+

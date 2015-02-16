@@ -1,0 +1,43 @@
+.cycle-slideshow {
+    position: relative;
+    .cycle-prev, .cycle-next {
+        background-color: rgba(255, 255, 255, .5);
+        display: inline-block;
+        height: $baseline *2;
+        width: $baseline *2;
+        position: absolute;
+        margin-top: -$baseline;
+        z-index: 1000;
+        top: 50%;
+        text-align: center;
+        font-size: $baseline;
+        line-height: $baseline *2;
+        cursor: pointer;
+        &:hover {
+            background-color: rgba(255, 255, 255, .9);
+        }
+    }
+    .cycle-next {
+        right: 0;
+    }
+    .cycle-prev {
+        left: 0;
+    }
+    .cycle-caption {
+        @extend small;
+        margin: $baseline 0;
+        text-align: center;
+        text-transform: uppercase;
+    }
+}
+
+@media (max-width: 768px) {
+    .cycle-slideshow {
+        .cycle-prev, .cycle-next {
+            height: $baseline;
+            width: $baseline;
+            margin-top: -$baseline /2;
+            line-height: $baseline;
+        }
+    }
+}

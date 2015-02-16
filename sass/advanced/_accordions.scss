@@ -1,0 +1,29 @@
+.accordion {
+    border: 1px solid $accordion-border-color;
+}
+
+.accordion-element-title {
+    border-bottom: 1px solid $accordion-border-color;
+    background-color: lighten($accordion-inactive-bg-color, 15%);
+    color: lighten($text-color, 15%);
+    font-family: $heading-font-family;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    padding: $baseline;
+    &:hover, &:active {
+        color: $accordion-active-text-color;
+        background-color: $accordion-active-bg-color;
+    }
+    .accordion-element:last-child & {
+        border-bottom: 0;
+    }
+}
+
+.accordion-element-content {
+    display: none;
+    padding: $baseline;
+    p:last-child {
+        margin-bottom: 0;
+    }
+}

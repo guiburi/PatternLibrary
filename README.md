@@ -73,32 +73,32 @@
 
 **Elements and Characteristics**
 
-- Navbar
-- Contains logo on the left side and menu on the right side
-- The menu will be powered by the Superfish jQuery plugin
+- Navbar ✓
+- Contains logo on the left side and menu on the right side ✓
+- The menu will be powered by the Superfish jQuery plugin ✓
 
 **Responsive Behaviour**
 
-- At page load, the main menu will be cloned via jQuery into a responsive menu
-- In mobile sizes (<768px) the main menu will be hidden, the logo moved to the center and the responsive menu will be displayed below the logo
+- At page load, the main menu will be cloned via jQuery into a responsive menu ✓
+- In mobile sizes (<768px) the main menu will be hidden, the logo moved to the center and the responsive menu will be displayed below the logo ✓
 
 ## Animations
 
 **Description**
 
-- Will use the animate.css library by Dan Eden
+- Will use the animate.css library by Dan Eden ✓
 
 ## Tabs and Accordions
 
 **Description**
 
-- Custom controls
+- Custom controls ✓
 
 ## Carousels
 
 **Description**
 
-- Will use the Cycle2 jQuery plugin
+- Will use the Cycle2 jQuery plugin ✓
 
 
 #\#Todo

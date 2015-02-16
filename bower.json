@@ -1,10 +1,10 @@
 {
-  "name": "Guiburi Pattern Library",
-  "version": "0.0.1",
-  "dependencies": {
-  	"fontawesome": "latest",
-  	"superfish": "latest",
-  	"animate.css": "latest",
-  	"jquery-cycle2": "latest"
-  }
+    "name": "Guiburi Pattern Library",
+    "version": "0.0.1",
+    "dependencies": {
+        "fontawesome": "latest",
+        "superfish": "latest",
+        "animate.css": "latest",
+        "jquery-cycle2": "latest"
+    }
 }
