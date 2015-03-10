@@ -105,11 +105,11 @@ a.btn {
 
 //buttons sizes
 .btn-small {
-    font-size: $btn-small-font-size;
+     @include rem("font-size", $btn-small-font-size);
 }
 
 .btn-large {
-    font-size: $btn-large-font-size;
+    @include rem("font-size", $btn-large-font-size);
 }
 
 //icons + buttons

@@ -21,12 +21,12 @@ $sub-heading-font-color: #607d8b;
 
 
 
-$h1-size: 3.998em;
-$h2-size: 2.827em;
-$h3-size: 1.999em;
-$h4-size: 1.414em;
-$h5-size: 1em;
-$h6-size: 0.707em;
+$h1-size:50;
+$h2-size: 36;
+$h3-size: 28;
+$h4-size: 21;
+$h5-size: 16;
+$h6-size:12;
 
 
 //Button Variables
@@ -82,7 +82,6 @@ $feedback-warning-bg: #FFB74D;
 $feedback-error-bg: #E57373;
 
 //Navigation Variables
-
 $navbar-bg-color: #B0BEC5;
 $navbar-submenu-bg-color: darken($navbar-bg-color , 10%);
 $navbar-link-color: lighten($navbar-bg-color , 25%);
@@ -95,7 +94,6 @@ $navbar-hover-text-color: darken($navbar-bg-color , 15%);
 $tabs-border-color : #ccc;
 $tabs-inactive-bg-color : #c1cacd;
 $tabs-active-bg-color : #fff;
-
 
 
 //Accordion Variable 
