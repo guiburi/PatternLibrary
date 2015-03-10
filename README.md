@@ -100,6 +100,11 @@
 
 - Will use the Cycle2 jQuery plugin ✓
 
+## Sass mixins
+- rem (convert px to rem values)
+- clearfix (handle floats)
+- placeholder (crossbrower placeholder style)
+
 
 #\#Todo
 

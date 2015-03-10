@@ -1,0 +1,9 @@
+// ----------------------------------------------------------------------
+// Hidden Text without display: none;
+// ----------------------------------------------------------------------
+// example: @include hide-text();
+@mixin hide-text() {
+    font: 0/0 a;
+    text-shadow: none;
+    color: transparent;
+}

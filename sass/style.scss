@@ -1,12 +1,15 @@
-/* Helpers */
-@import "helpers/variables";
-
-/* mixins */
+/* Mixins */
+@import "mixins/center-block";
 @import "mixins/clearfix";
+@import "mixins/gradient";
+@import "mixins/hide-text";
 @import "mixins/placeholder";
 @import "mixins/rem";
+@import "mixins/retina";
+@import "mixins/truncate-text";
 
 /* Base */
+@import "base/variables";
 @import "base/normalize";
 @import "base/typography";
 
@@ -23,6 +26,3 @@
 @import "components/navigation";
 @import "components/responsive-embed";
 @import "components/tabs";
-
-
-

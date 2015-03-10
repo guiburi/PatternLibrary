@@ -1,0 +1,9 @@
+// ----------------------------------------------------------------------
+// truncate text with an ellipsis
+// ----------------------------------------------------------------------
+// example: @include text-truncate();
+@mixin text-truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

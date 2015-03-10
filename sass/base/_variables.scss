@@ -1,25 +1,20 @@
 // Pattern Library Global Variables
 
-
 // Grid Variables
 $column-count: 12;
 $gutter: 1em;
-
 
 // Typography Variables
 $text-color: #424242;
 $link-color: #03a9f4;
 $hr-color: #B6B6B6;
 $muted-text-color: lighten($text-color, 30%);
-
-$baseline: 1.5em;
-
-$body-font-family:'Droid Serif', serif;
-$heading-font-family:'Raleway', sans-serif;
 $heading-font-color: #37474F;
 $sub-heading-font-color: #607d8b;
 
-
+$baseline: 1.5em;
+$body-font-family:'Droid Serif', serif;
+$heading-font-family:'Raleway', sans-serif;
 
 $h1-size:50;
 $h2-size: 36;
@@ -28,12 +23,10 @@ $h4-size: 21;
 $h5-size: 16;
 $h6-size:12;
 
-
 //Button Variables
 $btn-roundnes: 0;
 $btn-small-font-size: $h6-size;
 $btn-large-font-size: $h3-size;
-
 
 $btn-primary-bg: #64B5F6;
 $btn-primary-text-color: lighten(#64B5F6,50%);
@@ -60,18 +53,15 @@ $btn-disabled-text-color: #9E9E9E;
 $field-border-color: #ccc;
 $field-error-color: #E53935; 
 $field-required-color: #B71C1C;
-
-
 $form-radio-selected-color: lighten(#64B5F6,50%);
 
 
 //Icon Variables
 $icon-small-font-size: $h6-size;
 $icon-large-font-size: $h3-size;
-
 $icon-roundness : $baseline /3;
-$icon-border-color : $field-border-color;
 
+$icon-border-color : $field-border-color;
 $icon-filled-background-color : $field-border-color;
 $icon-filled-text-color : $text-color;
 
