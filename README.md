@@ -104,6 +104,12 @@
 - rem (convert px to rem values)
 - clearfix (handle floats)
 - placeholder (crossbrower placeholder style)
+- center-block elements
+- gradient (horizontal, vertical, radial)
+- hide-text (hide text without display none)
+- placeholder (vendor specifics for placeholder colors)
+- retina replace images
+- truncate-text  (truncate text with ellipses)
 
 
 #\#Todo
